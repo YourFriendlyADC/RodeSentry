@@ -1,0 +1,86 @@
+{
+    "circuitos": {
+        "Valentina Schotborgh": {
+            "image": "images/participants/valentina-schotborgh.jpg",
+            "career": "Ing. de Sistemas"
+        },
+        "Eber Solórzano Díaz": {
+            "image": "images/participants/eber-solorzano.jpg",
+            "career": "Ing. Eléctrica"
+        },
+        "Alejandro Cabezas": {
+            "image": "images/participants/alejandro-cabezas.jpg",
+            "career": "Ing. Eléctrica"
+        },
+        "José Tapia Pérez": {
+            "image": "images/participants/jose-tapia.jpg",
+            "career": "Ing. Eléctrica"
+        }
+    },
+    "documentacion": {
+        "Alejandra Valencia": {
+            "image": "images/participants/alejandra-valencia.jpg",
+            "career": "Ing. de Sistemas"
+        },
+        "Oriana Quintero": {
+            "image": "images/participants/oriana-quintero.jpg",
+            "career": "Ing. Eléctrica"
+        },
+        "Rubén Hernández": {
+            "image": "images/participants/ruben-hernandez.jpg",
+            "career": "Ing. Civil"
+        },
+        "William Rodríguez": {
+            "image": "images/participants/william-rodriguez.jpg",
+            "career": "Ing. Civil"
+        }
+    },
+    "ensamblaje": {
+        "Elvira Flórez": {
+            "image": "images/participants/elvira-florez.jpg",
+            "career": "Ing. de Sistemas"
+        },
+        "Pedro Orgulloso": {
+            "image": "images/participants/pedro-orgulloso.jpg",
+            "career": "Ing. Eléctrica"
+        },
+        "Emmanuel Cabrera Janer": {
+            "image": "images/participants/emmanuel-cabrera.jpg",
+            "career": "Ing. Electrónica"
+        },
+        "Juliana Carolina Vásquez Gómez": {
+            "image": "images/participants/juliana-vasquez.jpg",
+            "career": "Ing. Electrónica"
+        },
+        "Mariana Barrero Hernández": {
+            "image": "images/participants/mariana-barrero.jpg",
+            "career": "Ing. Electrónica"
+        },
+        "Nikolas Moises Pedraza Wilson": {
+            "image": "images/participants/nikolas-pedraza.jpg",
+            "career": "Ing. Electrónica"
+        },
+        "Sebastián Castañeda Villarroel": {
+            "image": "images/participants/sebastian-castaneda.jpg",
+            "career": "Ing. Electrónica"
+        }
+    },
+    "software": {
+        "Daniel Martínez": {
+            "image": "images/participants/daniel-martinez.jpg",
+            "career": "Ing. de Sistemas"
+        },
+        "Juan Miguel Carrasquilla": {
+            "image": "images/participants/juan-carrasquilla.jpg",
+            "career": "Ing. de Sistemas"
+        },
+        "Alejandro Hernández Polo": {
+            "image": "images/participants/alejandro-hernandez.jpg",
+            "career": "Ing. de Sistemas"
+        },
+        "Alejandro Toro": {
+            "image": "images/participants/alejandro-toro.jpg",
+            "career": "Ing. de Sistemas"
+        }
+    }
+}
