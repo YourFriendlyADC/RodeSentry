@@ -1,107 +1,107 @@
 {
+    "Mariana Barrero Hernández": {
+        "image": "images/members/mariana-barrero.png",
+        "career": "Ingeniería Electrónica",
+        "email": "mmbarrero@uninorte.edu.co"
+    },
     "Alejandro Cabezas": {
-        "image": "images/participants/alejandro-cabezas.jpg",
+        "image": "images/members/alejandro-cabezas.png",
         "career": "Ingeniería Eléctrica",
         "email": "ajcabezas@uninorte.edu.co"
     },
-    "Juan Camilo Pombo": {
-        "image": "images/participants/juan-pombo.jpg",
-        "career": "Ingeniería Eléctrica",
-        "email": "jcpombo@uninorte.edu.co"
+    "Emmanuel Cabrera Janer": {
+        "image": "images/members/emmanuel-cabrera.png",
+        "career": "Ingeniería Electrónica",
+        "email": "jemmanuel@uninorte.edu.co"
+    },
+    "Juan Miguel Carrasquilla": {
+        "image": "images/members/juan-carrasquilla.png",
+        "career": "Ingeniería de Sistemas",
+        "email": "jmcarrasquilla@uninorte.edu.co"
+    },
+    "Sebastián Castañeda Villarroel": {
+        "image": "images/members/sebastian-castaneda.png",
+        "career": "Ingeniería Electrónica",
+        "email": "svillarroel@uninorte.edu.co"
+    },
+    "Elvira Flórez": {
+        "image": "images/members/elvira-florez.png",
+        "career": "Ingeniería de Sistemas",
+        "email": "elviraf@uninorte.edu.co"
+    },
+    "Alejandro Hernández Polo": {
+        "image": "images/members/alejandro-hernandez.png",
+        "career": "Ingeniería de Sistemas",
+        "email": "jhalejandro@uninorte.edu.co"
     },
     "Rubén Hernández": {
-        "image": "images/participants/ruben-hernandez.jpg",
+        "image": "images/members/ruben-hernandez.png",
         "career": "Ingeniería Civil",
         "email": "rhernandezd@uninorte.edu.co"
     },
+    "Daniel Martínez": {
+        "image": "images/members/daniel-martinez.png",
+        "career": "Ingeniería de Sistemas",
+        "email": "medinaed@uninorte.edu.co"
+    },
+    "Nikolas Moises Pedraza Wilson": {
+        "image": "images/members/nikolas-pedraza.png",
+        "career": "Ingeniería Electrónica",
+        "email": "nwilson@uninorte.edu.co"
+    },
+    "Pedro Orgulloso": {
+        "image": "images/members/pedro-orgulloso.png",
+        "career": "Ingeniería Eléctrica",
+        "email": "porgulloso@uninorte.edu.co"
+    },
+    "Juan Camilo Pombo": {
+        "image": "images/members/juan-pombo.png",
+        "career": "Ingeniería Eléctrica",
+        "email": "jcpombo@uninorte.edu.co"
+    },
     "Oriana Quintero": {
-        "image": "images/participants/oriana-quintero.jpg",
+        "image": "images/members/oriana-quintero.png",
         "career": "Ingeniería Eléctrica",
         "email": "orianaq@uninorte.edu.co"
     },
+    "William Rodríguez": {
+        "image": "images/members/william-rodriguez.png",
+        "career": "Ingeniería Civil",
+        "email": "galew@uninorte.edu.co"
+    },
     "Valentina Schotborgh": {
-        "image": "images/participants/valentina-schotborgh.jpg",
+        "image": "images/members/valentina-schotborgh.png",
         "career": "Ingeniería de Sistemas",
         "email": "vschotborgh@uninorte.edu.co"
     },
     "Eber Solórzano Díaz": {
-        "image": "images/participants/eber-solorzano.jpg",
+        "image": "images/members/eber-solorzano.png",
         "career": "Ingeniería Eléctrica",
         "email": "esolorzano@uninorte.edu.co"
     },
     "José Tapia Pérez": {
-        "image": "images/participants/jose-tapia.jpg",
+        "image": "images/members/jose-tapia.png",
         "career": "Ingeniería Eléctrica",
         "email": "jgtapia@uninorte.edu.co"
     },
+    "Alejandro Toro": {
+        "image": "images/members/alejandro-toro.png",
+        "career": "Ingeniería de Sistemas",
+        "email": "alejandropinedo@uninorte.edu.co"
+    },
     "Alejandra Valencia": {
-        "image": "images/participants/alejandra-valencia.jpg",
+        "image": "images/members/alejandra-valencia.png",
         "career": "Ingeniería de Sistemas",
         "email": "alejandrarua@uninorte.edu.co"
     },
     "Miguel Vanegas": {
-        "image": "images/participants/miguel-vanegas.jpg",
+        "image": "images/members/miguel-vanegas.png",
         "career": "Ingeniería Eléctrica",
         "email": "vanegasmj@uninorte.edu.co"
     },
-    "William Rodríguez": {
-        "image": "images/participants/william-rodriguez.jpg",
-        "career": "Ingeniería Civil",
-        "email": "galew@uninorte.edu.co"
-    },
-    "Elvira Flórez": {
-        "image": "images/participants/elvira-florez.jpg",
-        "career": "Ingeniería de Sistemas",
-        "email": "elviraf@uninorte.edu.co"
-    },
-    "Pedro Orgulloso": {
-        "image": "images/participants/pedro-orgulloso.jpg",
-        "career": "Ingeniería Eléctrica",
-        "email": "porgulloso@uninorte.edu.co"
-    },
-    "Emmanuel Cabrera Janer": {
-        "image": "images/participants/emmanuel-cabrera.jpg",
-        "career": "Ingeniería Electrónica",
-        "email": "jemmanuel@uninorte.edu.co"
-    },
     "Juliana Carolina Vásquez Gómez": {
-        "image": "images/participants/juliana-vasquez.jpg",
+        "image": "images/members/juliana-vasquez.png",
         "career": "Ingeniería Electrónica",
         "email": "julianacv@uninorte.edu.co"
-    },
-    "Mariana Barrero Hernández": {
-        "image": "images/participants/mariana-barrero.jpg",
-        "career": "Ingeniería Electrónica",
-        "email": "mmbarrero@uninorte.edu.co"
-    },
-    "Nikolas Moises Pedraza Wilson": {
-        "image": "images/participants/nikolas-pedraza.jpg",
-        "career": "Ingeniería Electrónica",
-        "email": "nwilson@uninorte.edu.co"
-    },
-    "Sebastián Castañeda Villarroel": {
-        "image": "images/participants/sebastian-castaneda.jpg",
-        "career": "Ingeniería Electrónica",
-        "email": "svillarroel@uninorte.edu.co"
-    },
-    "Daniel Martínez": {
-        "image": "images/participants/daniel-martinez.jpg",
-        "career": "Ingeniería de Sistemas",
-        "email": "medinaed@uninorte.edu.co"
-    },
-    "Juan Miguel Carrasquilla": {
-        "image": "images/participants/juan-carrasquilla.jpg",
-        "career": "Ingeniería de Sistemas",
-        "email": "jmcarrasquilla@uninorte.edu.co"
-    },
-    "Alejandro Hernández Polo": {
-        "image": "images/participants/alejandro-hernandez.jpg",
-        "career": "Ingeniería de Sistemas",
-        "email": "jhalejandro@uninorte.edu.co"
-    },
-    "Alejandro Toro": {
-        "image": "images/participants/alejandro-toro.jpg",
-        "career": "Ingeniería de Sistemas",
-        "email": "alejandropinedo@uninorte.edu.co"
     }
 }

@@ -6,6 +6,7 @@
     <title>Rodesentry - Proyecto</title>
     <link rel="icon" href="images/icon.ico">
     <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/project.css">
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,63 +22,92 @@
             <p>aqui escribir texto corto o quizá largo acerca del proyecto.</p>
         </div>
         <div class="projects">
+            <div class="problematic">
+                <h2><i class="fa-solid fa-circle-exclamation"></i>Problemática</h2>
+                <p>Se ha traído a nuestra atención que una de las causas principales de accidentes automovilísticos en Colombia es el microsueño, suceso que está relacionado con la perdida de la consciencia y la realidad por un espacio de tiempo muy breve. De acuerdo con Sura, entidad promotora de Salud, en solo 2 o 3 segundos pueden ocurrir resultados perjudiciales y terribles tanto para el conductor como sus alrededores. Por tal motivo, hemos diseñado una solución que busca prevenir futuros accidentes causados por microsueños.</p>
+            </div>
+
+            <div class="functionality">
+                <h2><i class="fa-solid fa-circle-question"></i>Cómo funciona?</h2>
+                <p>Este proyecto opera en tres fases claves. En la primera fase podemos ver cómo el usuario, a través de un control remoto situado en un modelo de asiento de un automóvil a escala humana, maneja un vehículo en una pista de carreras. La segunda fase implica la colocación de obstáculos en la pista, lo que activa la capacidad del vehículo controlado por el operador para identificar y reducir su velocidad en respuesta a estos obstáculos, incluso llegando a detenerse por completo. En la tercera fase, se implementa una cámara dirigida al rostro del operador, encargada de detectar signos de microsueño, como movimientos de cabeza, entre otros. Una vez que estos indicios son reconocidos, el vehículo disminuye su velocidad gradualmente hasta detenerse por completo para así prever un posible accidente.</p>
+            </div>
+
+            <div class="solution">
+                <h2><i class="fa-solid fa-check-double"></i>Propuesta</h2>
+                <p>El presente proyecto tiene como objetivo desarrollar un sistema de control de velocidad adaptativo de un vehículo con base en dos aspectos: la detección de microsueños del conductor, identificando signos de fatiga del mismo, y una detección de objetos a una distancia de seguridad pre-establecida frente al carro. Cuando se detecte cualquiera de los dos aspectos, el sistema activará automáticamente una reducción de la velocidad del vehículo, contribuyendo así a la prevención de accidentes viales.</p>
+            </div>
+
+            <div class="materiales">
+                <h2><i class="fa-solid fa-cubes"></i>Materiales</h2>
+                <div class="material">
+                    <img src="images/materials/sensor.png" alt="Sensor">
+                    <p>Sensor</p>
+                </div>
+                <div class="material">
+                    <img src="images/materials/arduino.png" alt="">
+                    <p>Kits de Arduino</p>
+                </div>
+                <div class="material">
+                    <img src="images/materials/tubos-pvc.png" alt="">
+                    <p>Tubos PVC</p>
+                </div>
+                <div class="material">
+                    <img src="images/materials/madera.png" alt="">
+                    <p>Madera</p>
+                </div>
+                <div class="material">
+                    <img src="images/materials/motorreductor.png" alt="">
+                    <p>Motorreductor</p>
+                </div>
+                <div class="material">
+                    <img src="images/materials/tuercas-pernos.png" alt="">
+                    <p>Tuercas y Pernos</p>
+                </div>
+                <div class="material">
+                    <img src="images/materials/controlador-velocidad.png" alt="">
+                    <p>Controlador de Velocidad</p>
+                </div>
+                <div class="material">
+                    <img src="images/materials/pista.png" alt="">
+                    <p>Pista Scalextric</p>
+                </div>
+            </div>
 
             <div class="sleep-detector">
                 <h2>Alice</h2>
                 <h4>Detector de Microsueño</h4>
                 <p>El detector de microsueño es un dispositivo que se encarga de detectar cuando el conductor de un vehículo se queda dormido al volante, para así evitar accidentes de tránsito.</p>
-                <div class="sleep-detector-img">
+                <!-- <div class="sleep-detector-img">
                     <img src="images/GY3.png" alt="Sleep Detector">
-                </div>
+                </div> -->
+                <a href="/chat.html" class="chat-alice-button" target="_blank" rel="noopener">
+                    <i class="fa-regular fa-comments"></i>
+                    <p>Chat with Alice!</p>
+                </a>
             </div>
             <div class="pista">
                 <h2>Pista</h2>
                 <p>La pista es un circuito impreso que se encarga de recibir las señales de los sensores y enviarlas al microcontrolador para que este las procese y determine si el conductor se encuentra en estado de microsueño.</p>
-                <div class="pista-img">
+                <!-- <div class="pista-img">
                     <img src="images/GY3.png" alt="Pista">
-                </div>
+                </div> -->
             </div>
             <div class="kart">
                 <h2>Kart</h2>
                 <p>El kart es un vehículo de cuatro ruedas que se encarga de transportar al conductor y a la pista.</p>
-                <div class="kart-img">
+                <!-- <div class="kart-img">
                     <img src="images/GY3.png" alt="Kart">
-                </div>
-                <p>Materiales</p>
-                <div class="kart-materiales">
-                    <div class="kart-material">
-                        <img src="images/sensor.png" alt="Sensor">
-                        <p>Sensor</p>
-                    </div>
-                    <div class="kart-material">
-                        <img src="images/sensor.png" alt="Sensor">
-                        <p>Kits de Arduino</p>
-                    </div>
-                    <div class="kart-material">
-                        <img src="images/sensor.png" alt="Sensor">
-                        <p>Tubos PVC</p>
-                    </div>
-                    <div class="kart-material">
-                        <img src="images/sensor.png" alt="Sensor">
-                        <p>Tubos PVC</p>
-                    </div>
-                    <div class="kart-material">
-                        <img src="images/sensor.png" alt="Sensor">
-                        <p>Tubos PVC</p>
-                    </div>
-                    <div class="kart-material">
-                        <img src="images/sensor.png" alt="Sensor">
-                        <p>Tubos PVC</p>
-                    </div>
-                    <div class="kart-material">
-                        <img src="images/sensor.png" alt="Sensor">
-                        <p>Tubos PVC</p>
-                    </div>
-                </div>
+                </div> -->
             </div>
         </div>
+        <div class="references">
+            <h4><i class="fa-solid fa-asterisk"></i>Referencias</h4>
+            <a href="http://repository.unipiloto.edu.co/handle/20.500.12277/9466#:~:text=En%20este%20documento%20se%20presenta%20el%20desarrollo%20del,carga%20pesada%20o%20pasajeros%20en%20el%20contexto%20colombiano.">[1] Diseño e implementación de un prototipo de dispositivo ADAS para detección y alerta de microsueño, en conductores de vehículos terrestres de trasporte de carga y de pasajeros en el contexto Colombiano.</a>
+            <a href="https://dspace.ucacue.edu.ec/items/5eed10f4-dbb9-4073-99f9-c63bb8921a35">[2] Implementación de un sistema de detección de sueño, en el vehículo eléctrico de la Universidad Católica de Cuenca.</a>
+            <a href="https://segurossura.com/co/blog/movilidad/microsuenos-que-son-y-como-evitarlos-mientras-conduces/">[3] Microsueños: ¿qué son y cómo evitarlos mientras conduces?</a>
+        </div>
     </section>
-    <footer></footer>
+    <footer id="contact"></footer>
     <script type="module" src="scripts.js"></script>
 </body>
 </html>

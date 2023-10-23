@@ -114,7 +114,7 @@ footer {
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: center;
-	margin: 2rem 1rem .25rem;
+	margin: .5rem .5rem 0;
 	color: #4a0f2a;
 	height: 5vh;
 }
@@ -124,111 +124,6 @@ footer i {
 }
 
 footer .ig-link {
-	font-size: 1.25rem;
-}
-
-/* About Us Page */
-.members {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	margin: auto;
-	width: 90%;
-	gap: 4rem;
-	color: #712246;
-}
-
-.members-title {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-}
-
-.members .circuitos,
-.members .documentacion,
-.members .ensamblaje,
-.members .software {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	gap: 1.5rem;
-}
-
-.members .members-list {
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	align-items: flex-start;
-	gap: 2rem;
-	flex-wrap: wrap;
-
-}
-
-.members .members-list .member {
-	width: 12.5rem;
-	/* margin-top: 1rem; */
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	gap: .25rem;
-	text-align: center;
-}
-
-.members .members-list .member p {
-	/* color: #4a0f2a; */
-	font-size: .75rem;
-}
-
-.members .members-list .member img {
-	width: 7.5rem;
-	border-radius: 10rem;
-}
-
-/* Project Page */
-.project {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	margin: 1rem 3rem;
-	gap: 4rem;
-	color: #4a0f2a;
-}
-
-.project-title {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-}
-
-.project h2 {
-	color: #4a0f2a;
-}
-
-.project h4 {
-	color: #712246;
-}
-
-.project p {
-	color: #913d63;
-}
-
-.project img {
-	width: 30%;
-	border-radius: 1rem;
-}
-
-.project .projects .kart .kart-materiales {
-	display: flex;
-	flex-direction: row;
-}
-
-.project .projects .kart .kart-materiales .kart-material {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
+	font-size: 1.5rem;
+	margin-bottom: .5rem;
 }
