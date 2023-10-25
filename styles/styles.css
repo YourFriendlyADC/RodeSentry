@@ -19,11 +19,18 @@ ul {
 	list-style: none;
 }
 
+#container {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
 /* Header */
 header nav {
 	display: flex;
 	justify-content: flex-end;
-	margin: 1rem 1.5rem;
+	margin: .5rem 1.5rem;
 	height: 5vh;
 }
 
@@ -114,13 +121,17 @@ footer {
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: center;
-	margin: .5rem .5rem 0;
-	color: #4a0f2a;
+	margin: 0 .5rem;
+	color: #4a0f2aaa;
 	height: 5vh;
 }
 
+footer p {
+	font-size: .9rem;
+}
+
 footer i {
-	color: #d84949;
+	color: #d8494999;
 }
 
 footer .ig-link {

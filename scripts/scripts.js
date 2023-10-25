@@ -1,4 +1,4 @@
-import membersList from "./members.json" assert { type: 'json' };
+import membersList from "../members.json" assert { type: 'json' };
 const header = document.querySelector("header");
 const footer = document.querySelector("footer");
 let membersListDiv;
@@ -23,10 +23,12 @@ function addHeader() {
 }
 
 function setMembers() {
-  membersListDiv = document.querySelector(".members-list");
-  for (let member in membersList) {
-    membersListDiv.innerHTML += `
-    <div class="member">
+  // if (location.href == 'about-us.html') {
+  // }
+    membersListDiv = document.querySelector(".members-list");
+    for (let member in membersList) {
+      membersListDiv.innerHTML += `
+      <div class="member">
       <img src="${membersList[member]["image"]}" alt="${membersList[member]}">
       <h4>${member}</h4>
       <p>${membersList[member]["career"]}</p>
@@ -37,8 +39,8 @@ function setMembers() {
 
 function addFooter() {
   footer.innerHTML = `
-  <p>Developed with <i class="fa-solid fa-heart"></i> by YourFriendlyADC and All Rodesentry's Team</p>
-  <a href="https://www.instagram.com/rodesentry/" class="ig-link"><i class="fa-brands fa-instagram"></i></a>
+  <p>Desarrollado con <i class="fa-solid fa-heart"></i> por YourFriendlyADC y todo el equipo de Rodesentry.</p>
+  <a href="https://www.instagram.com/rodesentry/" class="ig-link" target="_blank"><i class="fa-brands fa-instagram"></i></a>
   <!--<a href="https://www.instagram.com/rodesentry/" class="ig-link"><i class="fa-solid fa-file"></i></a>-->`;
 }
 

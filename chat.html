@@ -15,28 +15,32 @@
     <script src="https://kit.fontawesome.com/6b69f5d989.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <header></header>
-    <section class="chat">
-        <div class="chat-title">
-            <h1>Chat with Alice</h1>
-            <p>Ask Alice about the project!</p>
-        </div>
-        <div class="chat-container">
-            <div class="chat-container-messages">
-                <div class="chat-container-messages-message">
-                    <p><i class="fa-solid fa-user-astronaut"></i>Hi! I'm Alice, the virtual assistant of Rodesentry. I can help you with any questions you have about the project.</p>
-                </div>
-                <div class="chat-container-messages-message">
-                    <p>What would you like to know?</p>
-                </div>
+    <div id="container">
+        <header></header>
+        <section class="chat"> <!-- chatbot -->
+            <div class="chat-title"> <!-- header -->
+                <h1>Chat con Alice</h1>
+                <p>Pregunta a Alice sobre nuestro proyecto!</p>
             </div>
-            <div class="chat-container-input">
-                <input type="text" placeholder="Escribe tu mensaje aquí...">
-                <button type="submit" value="submit"><i class="fa-solid fa-paper-plane"></i></button>
+            <ul class="chat-container"> <!--Chatbox-->
+                <!-- <li class="bot-message">
+                    <i class="fa-solid fa-user-astronaut"></i>
+                    <p>Hola, soy tu asistente Alice, ¿cómo puedo ayudarte?</p>
+                </li> -->
+                <!-- <li class="user-message">
+                    <p>Hola Alice, como estas?</p>
+                    <i class="fa-solid fa-user"></i>
+                </li> -->
+            </ul>
+            <div class="chat-input">
+                <button class="voice-input-button" type="submit" value="submit"><i class="fa-solid fa-microphone"></i></button>
+                <input class="input-text" type="text" placeholder="Escribe tu mensaje aquí...">
+                <button class="input-button" type="submit" value="submit"><i class="fa-solid fa-paper-plane"></i></button>
             </div>
-        </div>
-    </section>
-    <footer id="contact"></footer>
-    <script type="module" src="scripts.js"></script>
+        </section>
+        <footer id="contact"></footer>
+    </div>
+    <script type="module" src="scripts/scripts.js"></script>
+    <script type="module" src="scripts/chat.js"></script>
 </body>
 </html>
