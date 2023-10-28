@@ -139,7 +139,7 @@ footer .ig-link {
 }
 
 /* Responsive design */
-@media screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) {
 	header nav {
 		margin: .5rem 1rem;
 		justify-content: center;
