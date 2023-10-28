@@ -11,11 +11,11 @@ document.addEventListener("DOMContentLoaded", function() {
 
 function addHeader() {
   header.innerHTML = `
-  <nav>
+  <nav class="nav-bar">
     <ul>
-        <li><a href="/">Inicio</a></li>
-        <li><a href="/project.html">Proyecto</a></li>
-        <li><a href="/about-us.html">Nosotros</a></li>
+        <li><i class="fa-solid fa-house"></i><a href="/" class="active">Inicio</a></li>
+        <li><i class="fa-solid fa-car"></i><a href="/project.html">Proyecto</a></li>
+        <li><i class="fa-solid fa-users"></i><a href="/about-us.html">Nosotros</a></li>
     </ul>
   </nav>`;
 }
