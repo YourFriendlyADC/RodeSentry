@@ -4,10 +4,11 @@
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	text-align: center;
 	margin: auto;
 	width: 90%;
 	gap: 4rem;
-	color: #712246;
+	color: #4a0f2a;
 }
 
 .members-title {
@@ -35,11 +36,10 @@
 	align-items: flex-start;
 	gap: 2rem;
 	flex-wrap: wrap;
-
 }
 
 .members .members-list .member {
-	width: 12.5rem;
+	width: 12rem;
 	/* margin-top: 1rem; */
 	display: flex;
 	flex-direction: column;
@@ -57,4 +57,19 @@
 	width: 7.5rem;
 	border-radius: 10rem;
   box-shadow: .2rem .2rem .125rem #71224666;
+}
+
+@media screen and (max-width: 768px) {
+	.members .members-list .member {
+		width: 9rem;
+	}
+
+	.members .members-list .member img {
+		width: 5rem;
+	}
+
+	.members .members-list .member h4 {
+		/* color: #4a0f2a; */
+		font-size: 1rem;
+	}
 }

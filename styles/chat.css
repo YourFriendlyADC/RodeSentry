@@ -128,3 +128,8 @@
 	box-shadow: #1f010099 2px 2px 1px;
 }
 
+@media screen and (max-width: 768px) {
+	.chat .chat-input input {
+		width: 80%;
+	}
+}

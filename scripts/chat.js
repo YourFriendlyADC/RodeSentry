@@ -42,21 +42,21 @@ const handleChat = () => {
   if (count == 0) {
     setTimeout(() => {
       chat.appendChild(createChatLi(answers[0], 'bot-message'));
-      // playAudio('../audios/1.mp3');
+      playAudio('../audios/1.mp3');
     }, 1500);
     count = 1;
     inputText.value = '';
   } else if (count == 1) {
     setTimeout(() => {
       chat.appendChild(createChatLi(answers[1], 'bot-message'));
-      // playAudio('../audios/2.mp3');
+      playAudio('../audios/2.mp3');
     }, 1500);
     count = 2;
     inputText.value = '';
   } else if (count == 2) {
     setTimeout(() => {
       chat.appendChild(createChatLi(answers[2], 'bot-message'));
-      // playAudio('../audios/3.mp3');
+      playAudio('../audios/3.mp3');
     }, 1500);
     count = 3;
     inputText.value = '';  

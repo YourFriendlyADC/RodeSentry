@@ -7,7 +7,6 @@ document.addEventListener("DOMContentLoaded", function() {
   addHeader();
   addFooter();
   setMembers();
-  scrollIntoFooter();
 });
 
 function addHeader() {
@@ -17,14 +16,12 @@ function addHeader() {
         <li><a href="/">Inicio</a></li>
         <li><a href="/project.html">Proyecto</a></li>
         <li><a href="/about-us.html">Nosotros</a></li>
-        <li><a href="#contact">Contacto</a></li>
     </ul>
   </nav>`;
 }
 
 function setMembers() {
-  // if (location.href == 'about-us.html') {
-  // }
+  if (location.href == 'about-us.html') {
     membersListDiv = document.querySelector(".members-list");
     for (let member in membersList) {
       membersListDiv.innerHTML += `
@@ -35,6 +32,7 @@ function setMembers() {
       <p>${membersList[member]["email"]}</p>
       </div>`;
     }
+  }
 }
 
 function addFooter() {
@@ -44,11 +42,17 @@ function addFooter() {
   <!--<a href="https://www.instagram.com/rodesentry/" class="ig-link"><i class="fa-solid fa-file"></i></a>-->`;
 }
 
-function scrollIntoFooter() {
-  const contactButton = document.querySelector("#contact");
-  contactButton.addEventListener("click", function() {
-      footer.scrollIntoView({
-          behavior: "smooth"
-      });    
-  });
+if (location.href == 'index.html') {
+  // Home Animation  
+  ScrollReveal().reveal(".landing-page-title",
+  { delay: 400,
+  duration: 800,
+  distance: '5rem',
+  origin: "top" });
+
+  ScrollReveal().reveal(".landing-page-logo",
+  { delay: 400,
+      duration: 800,
+      distance: '5rem',
+    origin: "bottom" });
 }
