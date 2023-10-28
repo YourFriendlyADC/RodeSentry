@@ -21,17 +21,15 @@ function addHeader() {
 }
 
 function setMembers() {
-  if (location.href == 'about-us.html') {
-    membersListDiv = document.querySelector(".members-list");
-    for (let member in membersList) {
-      membersListDiv.innerHTML += `
-      <div class="member">
+  membersListDiv = document.querySelector(".members-list");
+  for (let member in membersList) {
+    membersListDiv.innerHTML += `
+    <div class="member">
       <img src="${membersList[member]["image"]}" alt="${membersList[member]}">
       <h4>${member}</h4>
       <p>${membersList[member]["career"]}</p>
       <p>${membersList[member]["email"]}</p>
-      </div>`;
-    }
+    </div>`;
   }
 }
 
