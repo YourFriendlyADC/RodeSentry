@@ -140,12 +140,19 @@ footer .ig-link {
 
 /* Responsive design */
 @media screen and (max-width: 768px) {
+	header nav {
+		margin: .5rem 1rem;
+		justify-content: center;
+		gap: 1rem;
+	}
+
 	.landing-page {
 		flex-direction: column-reverse;
 		justify-content: center;
 		align-items: center;
-		gap: 2rem;
+		gap: 1rem;
 	}
+
 	.landing-page-title {
 		width: 100%;
 	}

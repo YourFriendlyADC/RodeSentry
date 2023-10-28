@@ -56,3 +56,16 @@ if (location.href == 'index.html') {
       distance: '5rem',
     origin: "bottom" });
 }
+
+window.addEventListener('scroll', function() {
+  var header = document.querySelector('header');
+  header.classList.toggle("sticky", window.scrollY > 0);
+});
+
+// Mobile Nav
+function toggleMenu() {
+  var menuToggle = document.querySelector('.menuToggle');
+  var nav = document.querySelector('.nav');
+  menuToggle.classList.toggle('active');
+  nav.classList.toggle('active');
+}
