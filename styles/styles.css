@@ -224,10 +224,13 @@ footer .ig-link {
 	footer {
 		margin: 1rem .5rem .5rem;
 		height: auto;
+		display: flex;
+		align-items: center;
+		justify-content: center;
 	}
 
 	footer p {
-		font-size: 0.8rem;
+		font-size: 0.6rem;
 		text-align: center;
 	}
 
