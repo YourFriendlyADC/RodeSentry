@@ -4,6 +4,7 @@ const inputButton = document.querySelector('.input-button');
 // chat.scrollTop = chat.scrollHeight;
 
 let userMessage;
+const API_KEY = "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";
 let count = 0;
 
 let answers = [
@@ -15,6 +16,29 @@ let answers = [
 function playAudio(path) {
   let audio = new Audio(path);
   audio.play();
+}
+
+const generateResponse = (botMessage) => {
+  const API_URL = "https://api.openai.com/v1/chat/completions";
+  const messageElement = botMessage.querySelector('p');
+
+  const requestedOptions = {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+      "Authorization": `Bearer ${API_KEY}`
+    },
+    body: JSON.stringify({
+      model: "gpt-3.5-turbo",
+      messages: [{role: "user", content: userMessage}],
+    })
+  }
+
+  fetch(API_URL, requestedOptions).then(response => response.json()).then(data => {
+    messageElement.textContent = data.choices[0].message.content;
+  }).catch(error => {
+    messageElement.textContent = 'Lo siento, no pude entender eso. ¿Podrías repetirlo?';
+  });
 }
 
 const createChatLi = (message, className) => {
@@ -37,30 +61,18 @@ const handleChat = () => {
   userMessage = inputText.value.trim();
   if (!userMessage) return;
 
+  inputText.value = '';
   chat.appendChild(createChatLi(userMessage, 'user-message'));
 
-  if (count == 0) {
-    setTimeout(() => {
-      chat.appendChild(createChatLi(answers[0], 'bot-message'));
-      playAudio('../audios/1.mp3');
-    }, 1500);
-    count = 1;
-    inputText.value = '';
-  } else if (count == 1) {
-    setTimeout(() => {
-      chat.appendChild(createChatLi(answers[1], 'bot-message'));
-      playAudio('../audios/2.mp3');
-    }, 1500);
-    count = 2;
-    inputText.value = '';
-  } else if (count == 2) {
-    setTimeout(() => {
-      chat.appendChild(createChatLi(answers[2], 'bot-message'));
-      playAudio('../audios/3.mp3');
-    }, 1500);
-    count = 3;
-    inputText.value = '';  
-  }
+  setTimeout(() => {
+    const botMessage = createChatLi("Pensando...", 'bot-message');
+    chat.appendChild(botMessage);
+    generateResponse(botMessage);
+    // playAudio(`../audios/${count + 1}.mp3`);
+  }, 500);
 }
 
 inputButton.addEventListener('click', handleChat);
+inputText.addEventListener('keydown', (event) => {
+  if (event.key === 'Enter') handleChat();
+});

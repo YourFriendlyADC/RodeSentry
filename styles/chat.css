@@ -1,16 +1,15 @@
 /* Chat Alice */
 .chat {
-  overflow-y: hidden;
+  overflow-y: auto;
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-start;
 	align-items: center;
-	margin: .5rem auto;
-	gap: 1rem;
+	margin: .5rem auto .25rem;
+	gap: .75rem;
 	color: #4a0f2a;
-	height: 82%;
+	height: 86%;
 	width: 100%;
-	/* background-color: #ff2f4f; */
 }
 
 .chat .chat-title {
@@ -22,22 +21,12 @@
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-end;
-  padding: 3rem .25rem 0;
+  padding: 0 .25rem 0;
   border-radius: 1rem;
-  height: 60vh;
-	width: 90%;
-	overflow-y: hidden;
-}
-
-.chat .chat-container .chat-container-messages {
-	padding: 1.5rem;
-	border: #4a0f2a solid 1px;
-	border-radius: 1rem 1rem 1rem 0;
-}
-
-.chat .chat-container .chat-container-messages-message i {
-	font-size: 1.5rem;
-	color: #1f0100;
+	white-space: pre-wrap;
+  height: 65vh;
+	width: 95%;
+	overflow: auto;
 }
 
 .chat .chat-input {
@@ -47,11 +36,11 @@
 	align-items: center;
 	justify-self: flex-end;
 	gap: .5rem;
-	margin: 1rem 0 0;
-	width: 90%;
+	margin: 1rem 0 .25rem;
+	width: 95%;
 	height: 5vh;
-	/* position: absolute; */
 	bottom: 0;
+	/* position: absolute; */
 }
 
 .chat .chat-input input {
@@ -131,6 +120,10 @@
 @media screen and (max-width: 768px) {
 	.chat {
 		margin-bottom: 0;
+	}
+
+	.chat .chat-input {
+		margin: 1rem 0 0;
 	}
 
 	.chat .chat-input input {
