@@ -11,13 +11,23 @@ document.addEventListener("DOMContentLoaded", function() {
 
 function addHeader() {
   header.innerHTML = `
+  <input type="checkbox" id="nav_check" hidden>
   <nav class="nav-bar">
-    <ul>
-        <li><i class="fa-solid fa-house"></i><a href="/" class="active">Inicio</a></li>
-        <li><i class="fa-solid fa-car"></i><a href="/project.html">Proyecto</a></li>
-        <li><i class="fa-solid fa-users"></i><a href="/about-us.html">Nosotros</a></li>
-    </ul>
-  </nav>`;
+      <ul>
+          <li>
+              <a href="/">Inicio</a>
+          </li>
+          <li>
+              <a href="/about-us.html">Proyecto</a>
+          </li>
+          <li>
+              <a href="/about-us.html">Nosotros</a>
+          </li>
+      </ul>
+  </nav>
+  <label for="nav_check" class="hamburger">
+    <i class="fa-solid fa-bars"></i>
+  </label>`;
 }
 
 function setMembers() {
@@ -40,20 +50,18 @@ function addFooter() {
   <!--<a href="https://www.instagram.com/rodesentry/" class="ig-link"><i class="fa-solid fa-file"></i></a>-->`;
 }
 
-if (location.href == 'index.html') {
-  // Home Animation  
-  ScrollReveal().reveal(".landing-page-title",
-  { delay: 400,
-  duration: 800,
-  distance: '5rem',
-  origin: "top" });
+// Home Animation  
+ScrollReveal().reveal(".landing-page-title",
+{ delay: 400,
+duration: 800,
+distance: '5rem',
+origin: "top" });
 
-  ScrollReveal().reveal(".landing-page-logo",
-  { delay: 400,
-      duration: 800,
-      distance: '5rem',
-    origin: "bottom" });
-}
+ScrollReveal().reveal(".landing-page-logo",
+{ delay: 400,
+    duration: 800,
+    distance: '5rem',
+  origin: "bottom" });
 
 window.addEventListener('scroll', function() {
   var header = document.querySelector('header');
