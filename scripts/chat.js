@@ -4,7 +4,7 @@ const inputButton = document.querySelector('.input-button');
 // chat.scrollTop = chat.scrollHeight;
 
 let userMessage;
-const API_KEY = "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";
+const API_KEY = "";
 let count = 0;
 
 let answers = [
