@@ -4,7 +4,7 @@ const footer = document.querySelector("footer");
 let membersListDiv;
 
 document.addEventListener("DOMContentLoaded", function() {
-  addHeader();
+  //addHeader();
   addFooter();
   setMembers();
 });
@@ -18,7 +18,7 @@ function addHeader() {
               <a href="/">Inicio</a>
           </li>
           <li>
-              <a href="/about-us.html">Proyecto</a>
+              <a href="/project.html">Proyecto</a>
           </li>
           <li>
               <a href="/about-us.html">Nosotros</a>
