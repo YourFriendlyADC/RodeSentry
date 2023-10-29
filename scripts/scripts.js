@@ -1,12 +1,12 @@
-import membersList from "../members.json" assert { type: 'json' };
-const header = document.querySelector("header");
-const footer = document.querySelector("footer");
-let membersListDiv;
+// import membersList from "../members.json" assert { type: 'json' };
+// const header = document.querySelector("header");
+// const footer = document.querySelector("footer");
+// let membersListDiv;
 
 document.addEventListener("DOMContentLoaded", function() {
   //addHeader();
-  addFooter();
-  setMembers();
+  // addFooter();
+  // setMembers();
 });
 
 function addHeader() {
@@ -46,8 +46,7 @@ function setMembers() {
 function addFooter() {
   footer.innerHTML = `
   <p>Desarrollado con <i class="fa-solid fa-heart"></i> por YourFriendlyADC y todo el equipo de Rodesentry.</p>
-  <a href="https://www.instagram.com/rodesentry/" class="ig-link" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-  <!--<a href="https://www.instagram.com/rodesentry/" class="ig-link"><i class="fa-solid fa-file"></i></a>-->`;
+  <a href="https://www.instagram.com/rodesentry/" class="ig-link" target="_blank"><i class="fa-brands fa-instagram"></i></a>`;
 }
 
 // Home Animation  
@@ -62,16 +61,3 @@ ScrollReveal().reveal(".landing-page-logo",
     duration: 800,
     distance: '5rem',
   origin: "bottom" });
-
-window.addEventListener('scroll', function() {
-  var header = document.querySelector('header');
-  header.classList.toggle("sticky", window.scrollY > 0);
-});
-
-// Mobile Nav
-function toggleMenu() {
-  var menuToggle = document.querySelector('.menuToggle');
-  var nav = document.querySelector('.nav');
-  menuToggle.classList.toggle('active');
-  nav.classList.toggle('active');
-}
