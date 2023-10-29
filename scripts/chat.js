@@ -1,7 +1,7 @@
 const chat = document.querySelector('.chat-container');
 const inputText = document.querySelector('.input-text');
 const inputButton = document.querySelector('.input-button');
-chat.scrollTop = chat.scrollHeight;
+// chat.scrollTop = chat.scrollHeight;
 
 let userMessage;
 let count = 0;
